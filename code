@@ -1,0 +1,12 @@
+# Virtual Coin Toss Program - Heads (1) or Tails (0) using Random Function/Numbers
+import random
+
+print("Tossing a Coin for You")
+random_numbers = random.randint(0,1)
+print(random_numbers)
+
+if random_numbers == 1:
+  print("Heads")
+else:
+  print("Tails")
+
